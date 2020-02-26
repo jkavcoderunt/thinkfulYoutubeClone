@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /*font-family: 'Lacquer';*/
+  font-size: 16px;
+}
+
+.VKTRS {
+  font-family: 'Lacquer';
+  margin-bottom: 15px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.collection-item {
+  height: auto;
+}
+
+.collection {
+  width: auto;
+}
+
+.collection .collection-item {
+  padding: 15px;
+}
+
+#searchBtn {
+  background: #f44336;
+  font-size: 16px;
+}
+
+#searchBtn:hover {
+  background: #ff6666;
+}
+
+#searchTxt {
+  font-family: 'Spartan', ;
+  font-size: 16px;
+}
+
+#results {
+  display: block;
+  list-style-type: none;
+}
+
+.flash {
+  color: #66ccff;
+  -webkit-animation-name: flashanim;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-duration: .5s;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-timing: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-name: flashanim;
+  animation-duration: .5s;
+  animation-timing: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes flashanim {
+  0% {
+    color: #66ccff;
+  }
+
+  100% {
+    color: #178588;
+  }
