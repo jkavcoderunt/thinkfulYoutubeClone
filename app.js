@@ -39,7 +39,7 @@ $(document).ready(function() {
           'part': 'snippet',
           'q': query,
           'type': '',
-          key: 'AIzaSyC-pMVHmlCvs7-9w5SFPDKOJDU-ml5Lubc'
+          key: 'AIzaSyCzKzf_hIZxGTecPjGM8rVlxNLAvrLYjhk'
         },
         function(data) {
           //call the handleData function
